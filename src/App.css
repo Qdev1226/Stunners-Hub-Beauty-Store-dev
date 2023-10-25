@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-color: #fc2678;
+  --bg-color: #402f27;
+  --border-color: #767676;
+  --product-bgcolor: #f2f2f3;
+  --category-box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}

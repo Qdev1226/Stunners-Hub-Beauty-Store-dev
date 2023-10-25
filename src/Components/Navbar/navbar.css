@@ -1,0 +1,74 @@
+.navbar {
+  padding: 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.nav-icon-link {
+  font-size: 1.5rem;
+}
+
+.nav-link,
+.nav-link:hover {
+  color: var(--bg-color);
+}
+
+.active {
+  color: var(--pink-color);
+}
+
+@media only screen and (max-width: 56em) {
+  .mainMenu {
+    display: none;
+  }
+  .closeMenu {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .openMenu {
+    display: block;
+  }
+  .mainMenu a {
+    background: none;
+    color: var(--bg-color);
+    font-size: 1.6rem;
+  }
+  .searchbar {
+    display: flex;
+    margin: 1rem 4.5rem 0 2rem;
+  }
+  .hide-icon {
+    display: none;
+  }
+  .small-fontsize {
+    font-size: 1rem;
+  }
+  .nav-icon-link .hide-icon {
+    display: none;
+  }
+  .search-input {
+    padding-right: 1rem;
+  }
+  .mainMenuShow {
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    background: var(--white);
+    gap: 1rem;
+    align-items: center;
+    margin-left: auto;
+  }
+  .mainMenuShow a {
+    margin-top: 1rem;
+  }
+}

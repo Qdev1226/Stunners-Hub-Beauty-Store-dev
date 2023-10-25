@@ -1,0 +1,91 @@
+body {
+  background-color: var(--product-bgcolor);
+}
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login {
+  border: 1px soild var(--black);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--white);
+  row-gap: 10px;
+  margin: 2rem;
+  padding: 0 3rem 3rem 3rem;
+  box-shadow: 0px 2px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.login-title {
+  margin: 1rem;
+  text-align: center;
+}
+
+.login-input,
+.login-password-input {
+  padding: 0.6rem 0.5rem;
+  font-size: 1rem;
+}
+
+.password-icon{
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 1rem;
+}
+
+.login-password-input {
+  outline: 0px;
+  border: none;
+  width: 100%;
+}
+
+.login-label {
+  font-weight: 500;
+  text-align: left;
+}
+
+.signup-link {
+  color: var(--bg-color);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.remember-label {
+  margin-left: 0.7rem;
+}
+
+.forgot-password {
+  color: var(--pink-color);
+}
+
+.btn-login {
+  background-color: var(--pink-color);
+  margin: 0.3rem 0;
+}
+
+.login-icon {
+  margin: 0 1rem 0 1rem;
+}
+
+.login-password {
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-style-none {
+  border: none;
+  cursor: pointer;
+}

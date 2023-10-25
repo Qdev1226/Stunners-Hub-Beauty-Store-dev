@@ -1,0 +1,112 @@
+.address {
+  padding: 0.6rem;
+  background-color: var(--white);
+  margin: 0 0 1rem 0;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.address-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.detail-address {
+  font-size: 1rem;
+}
+
+.click-btn {
+  margin-left: auto;
+  padding: 0.1rem 0.7rem;
+  color: var(--pink-color);
+  border-color: var(--pink-color);
+  background: var(--white);
+}
+
+.click-btn:hover {
+  background: var(--pink-color);
+  color: var(--white);
+}
+
+.address-sec {
+  width: 70%;
+}
+
+.modal {
+  overflow: hidden;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.modal-content {
+  background-color: var(--product-bgcolor);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.input {
+  width: 20rem;
+  margin: 0.5rem 0;
+  padding: 10px;
+}
+
+.input-address {
+  width: 20rem;
+  padding: 10px;
+}
+
+.name-label {
+  font-size: 1.1rem;
+  color: var(--bg-color);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.cancel-btn {
+  background-color: var(--product-bgcolor);
+  color: var(--bg-color);
+  border-radius: 5px;
+  border: 1px solid var(--bg-color);
+}
+
+.save-btn {
+  background-color: var(--pink-color);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 48em) {
+  .input {
+    width: 10rem;
+    height: 1rem;
+  }
+  .input-address {
+    width: 10rem;
+    height: 5rem;
+  }
+  .name-label {
+    font-size: 13px;
+  }
+  .modal-content {
+    width: 70%;
+  }
+  .btn {
+    padding: 6px 10px;
+  }
+  .modal {
+    overflow: hidden;
+  }
+  .address {
+    width: 90%;
+    margin: 1rem 1rem 0 1rem;
+  }
+}

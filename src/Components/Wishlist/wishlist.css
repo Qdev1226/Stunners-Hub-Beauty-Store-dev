@@ -1,0 +1,77 @@
+.wishlist {
+  display: flex;
+  margin: 3.1rem;
+}
+.wishlist-cards-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.empty-wishlist {
+  width: 100vw;
+  text-align: center;
+}
+
+@media only screen and (max-width: 48em) {
+  .wishlist {
+    margin: 2rem;
+  }
+  .wishlist-cards-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  .card {
+    width: 15rem;
+  }
+  .card-padding {
+    padding: 10px 10px 0 10px;
+  }
+  .hide-icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 30em) {
+  .wishlist {
+    display: flex;
+    flex-direction: column;
+  }
+  .wishlist-cards-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  .card {
+    width: 17rem;
+  }
+  .hide-icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 12rem) {
+  .wishlist {
+    margin: 3.1rem;
+    justify-content: center;
+  }
+  .wishlist-cards-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  .card {
+    width: 15rem;
+  }
+  .card-padding {
+    padding: 10px 10px 0 10px;
+  }
+}
